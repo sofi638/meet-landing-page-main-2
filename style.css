@@ -1,0 +1,145 @@
+.container-meet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  border: 1px solid red;
+
+  min-height: 600px;
+
+  background-image: url(assets/desktop/image-hero-left.png),
+    url(assets/desktop/image-hero-right.png);
+  background-repeat: no-repeat;
+  background-position: center left, center right;
+}
+
+.img-logo {
+  margin-top: -100px;
+}
+.h1-group {
+  font-size: 50px;
+}
+.p-meet {
+  text-align: center;
+  width: 400px;
+}
+
+.btn-1 {
+  margin-top: 20px;
+  background-color: #4d96a9;
+  color: white;
+  padding: 17px;
+  border-radius: 30px;
+  border: none;
+}
+.span-v1 {
+  color: #8fe3f9;
+}
+
+.btn-2 {
+  margin-top: 20px;
+  background-color: #855fb1;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 17px;
+  width: 100px;
+}
+
+.cont-01 {
+  margin-top: 20px;
+  background-color: gainsboro;
+  border: solid 1px gray;
+  color: grey;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.cont-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.img-1 {
+  width: 200px;
+  border-radius: 10px;
+}
+.cont-meeting {
+  text-align: center;
+}
+.h3-built {
+  color: #4d96a9;
+}
+.h1-smarter {
+  font-size: 40px;
+}
+.p-send {
+  width: 400px;
+  margin: auto;
+}
+
+.cont-02 {
+  background-color: gainsboro;
+  border: solid 1px gray;
+  color: grey;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -37px;
+  z-index: 9;
+  position: relative;
+}
+
+.cont-hd {
+  display: flex;
+  background-image: url(assets/desktop/image-footer.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 300px;
+  gap: 100px;
+  background-color: #4d96a9;
+  align-items: center;
+  background-blend-mode: multiply;
+}
+.cont-hd div {
+  display: flex;
+  width: 50%;
+}
+
+.btn-3 {
+  background-color: #855fb1;
+  height: 50px;
+  padding: 17px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
+.spn-v1 {
+  color: #b18bdd;
+}
+.h1-more {
+  font-size: 40px;
+  width: 300px;
+  margin: auto;
+}
+.p-stay {
+  font-size: 22px;
+  width: 400px;
+  margin: auto;
+}
+.line {
+  margin: auto;
+  height: 100px;
+  width: 1px;
+  background-color: hsl(0, 0%, 70%);
+}
